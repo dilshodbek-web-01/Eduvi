@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    <div class="container">
+        <div class="signUP top">
+            <div class="signUP__left">
+                <img src="./images/Logo.svg" alt="logo" class="signUP__left-logo">
+                <h2 class="signUP__left-title">
+                    Welcome to Eduvi Online Learning Platform
+                </h2>
+                <img src="./images/left__person-picture.jpg" alt="left__person-picture" class="signUP__left-picture">
+                <!-- <img src="./images/Sliders.svg" alt="Sliders" class="signUP__left-sliders"> -->
+            </div>
+            <hr class="hr">
+            <div class="signUP__right">
+                <div class="signUP__right--sign">
+                    <img class="signUP__right--sign-google" src="./images/google.svg" alt="google">
+                    <input class="signUP__right--sign-first" type="text" placeholder="Signup with google">
+                    <p class="signUP__right--sign-text">-- Or signup with your email --</p>
+                </div>
+                
+                <form action="#" class="signUP__right--form" id="login">
+
+                    <label for="#">
+                        <p class="signUP__right--form-title"><strong>Name</strong></p>
+                        <img class="signUP__right--form-icon" src="./images/account-icon.svg" alt="message">
+                        <input id="userNames" type="text" placeholder="Enter your name" class="signUP__right--form-input fullName">
+                    </label>
+
+                    <label for="#">
+                        <p class="signUP__right--form-title"><strong>Password</strong></p>
+                        <img class="signUP__right--form-icon" src="./images/lock.svg" alt="account-icon">
+                        <input id="userPasswords" type="password" placeholder="**********" class="signUP__right--form-input passwordInput">
+                        <!-- <img class="signUP__right--form-eye" src="./images/eye.svg" alt="eye"> -->
+                        <span class="show"><i class="bi bi-eye-fill"></i></span>
+                    </label>
+
+                    <div class="div">
+
+                    </div>
+
+                    <button type="submit" class="signUP__right--form-btn">Sign Up</button>
+
+                    <div class="signUP__right--form-checkbox">
+                        <input type="checkbox" class="signUP__right--form-checkbox-check">
+                        <p class="signUP__right--form-checkbox-text">Keep me signed in <a class="signUP__right--form-checkbox-link" href="./registration.html"><strong>back-registration</strong></a></p>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="./scripts/utils.js"></script>
+<script src="./scripts/login.js"></script>
+<script src="./scripts/index.js"></script>
+</html>

@@ -1,0 +1,113 @@
+.footer {
+
+    &__lists {
+        @include costum-menu (flex, center, space-between, 100%, 100%, $main-bg-grey);
+        list-style-type: none;
+        position: relative;
+        right: 10px;
+
+        &--item {
+
+            &-title {
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 27px;
+                color: $main-blue-color;
+            }
+
+            &-link {
+                font-size: 16px;
+                line-height: 16px;
+            }
+
+            .footer__social {
+
+                &-logo {
+                    margin-bottom: 20px;
+                }
+
+                &--network {
+                    @include costum-menu (flex, center, space-between, 140px, 100%, $main-bg-grey);
+                    margin-bottom: 50px;
+                }
+
+                &-text1 {
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+
+                &-text2 {
+                    font-size: 16px;
+                    line-height: 26px;
+                    width: 170px;
+                }
+
+            }
+        }
+        
+        .footerUP {
+            position: relative;
+            bottom: 15px;
+        }
+    }
+}
+
+
+@media only screen and (max-width : 992px) {
+
+    .footer {
+
+        &__lists {
+            @include costum-menu (flex, center, space-between, 100%, 100%, $main-bg-grey);
+            list-style-type: none;
+            position: relative;
+            right: 10px;
+            flex-wrap: wrap;
+    
+            &--item {
+    
+                &-title {
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 27px;
+                    color: $main-blue-color;
+                }
+    
+                &-link {
+                    font-size: 16px;
+                    line-height: 16px;
+                }
+    
+                .footer__social {
+    
+                    &-logo {
+                        margin-bottom: 20px;
+                    }
+    
+                    &--network {
+                        @include costum-menu (flex, center, space-between, 140px, 100%, $main-bg-grey);
+                        margin-bottom: 50px;
+                    }
+    
+                    &-text1 {
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+    
+                    &-text2 {
+                        font-size: 16px;
+                        line-height: 26px;
+                        width: 170px;
+                    }
+    
+                }
+            }
+            
+            .footerUP {
+                position: relative;
+                bottom: 15px;
+            }
+        }
+    }
+
+}

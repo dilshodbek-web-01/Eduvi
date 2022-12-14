@@ -1,0 +1,614 @@
+.intro {
+    margin-top: 50px;
+  @include costum-menu(flex, center, space-between, 100%, 100%, $main-bg-grey);
+  margin-bottom: 150px;
+
+  &__left {
+    width: 607px;
+
+    &--bgwhite {
+        @include costum-menu(flex, center, center, 239px, 50px,  $main-color-white);
+        border-radius: 10px;
+
+      &-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #ff6652;
+      }
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 75px;
+        color: $main-blue-color;
+    }
+
+    &-text {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    &--search {
+        @include costum-menu(flex, center, center, 607px, 60px, $main-color-white);
+        border-radius: 10px;
+
+        &-select {
+            border: none;
+            margin-left: 20px;
+        }
+
+        &-hr {
+            width: 1px;
+            height: 30px;
+            background-color: #DADADA;
+            margin-right: 200px;
+        }
+
+        &-text {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            position: relative;
+            right: 180px;
+        }
+
+        &-btnSearch {
+            width: 143px;
+            height: 50px;
+            margin-right: 5px;
+            background: $main-color-blueviolet;
+            color: $main-color-white;
+            border: none;
+            border-radius: 10px;
+
+            &:hover {
+              background-color: $main-color-white;
+              color: $main-color-blueviolet;
+            }
+        }
+    }    
+
+  }
+
+  &__three-search {
+    display: none;
+  }
+
+  &-right {
+
+    &-img {
+      width: 668px;
+      height: 669px;
+      background-color: transparent;
+    }
+  }
+}
+
+
+@media only screen and (max-width : 1110px) {
+
+  .intro {
+    margin-top: 50px;
+  @include costum-menu(flex, center, space-between, 100%, 100%, $main-bg-grey);
+  margin-bottom: 150px;
+
+  &__left {
+    width: 507px;
+
+    &--bgwhite {
+        @include costum-menu(flex, center, center, 190px, 36px,  $main-color-white);
+        border-radius: 10px;
+
+      &-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        color: #ff6652;
+      }
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        color: $main-blue-color;
+        width: 420px;
+    }
+
+    &-text {
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 30px;
+        width: 481px;
+    }
+
+    &--search {
+        @include costum-menu(flex, center, center, 539px, 50px, $main-color-white);
+        border-radius: 10px;
+
+        &-select {
+            border: none;
+            margin-left: 15px;
+        }
+
+        &-hr {
+            width: 1px;
+            height: 30px;
+            background-color: #DADADA;
+            margin-right: 130px;
+        }
+
+        &-text {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            position: relative;
+            right: 100px;
+        }
+
+        &-btnSearch {
+            width: 127px;
+            height: 40px;
+            margin-right: 5px;
+            background: $main-color-blueviolet;
+            color: $main-color-white;
+            border: none;
+            border-radius: 10px;
+
+            &:hover {
+              background-color: $main-color-white;
+              color: $main-color-blueviolet;
+            }
+        }
+    }    
+
+  }
+
+  &__three-search {
+    display: none;
+  }
+
+  &-right {
+
+    &-img {
+      width: 428px;
+      height: 448px;
+      background-color: transparent;
+    }
+  }
+}
+
+}
+
+@media only screen and (max-width : 992px) {
+
+  .intro {
+    margin-top: 50px;
+  @include costum-menu(flex, center, space-between, 100%, 100%, $main-bg-grey);
+  margin-bottom: 100px;
+
+  &__left {
+    width: 507px;
+
+    &--bgwhite {
+        @include costum-menu(flex, center, center, 180px, 30px,  $main-color-white);
+        border-radius: 10px;
+
+      &-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 14px;
+        color: #ff6652;
+      }
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 45px;
+        color: $main-blue-color;
+        width: 340px;
+    }
+
+    &-text {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 25px;
+        width: 350px;
+    }
+
+    &--search {
+        @include costum-menu(flex, center, center, 390px, 40px, $main-color-white);
+        border-radius: 10px;
+
+        &-select {
+            border: none;
+            margin-left: 10px;
+        }
+
+        &-hr {
+            width: 1px;
+            height: 30px;
+            background-color: #DADADA;
+            margin-right: 80px;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 14px;
+            position: relative;
+            right: 70px;
+        }
+
+        &-btnSearch {
+            width: 100px;
+            height: 30px;
+            margin-right: 5px;
+            background: $main-color-blueviolet;
+            color: $main-color-white;
+            border: none;
+            border-radius: 10px;
+
+            &:hover {
+              background-color: $main-color-white;
+              color: $main-color-blueviolet;
+            }
+        }
+    }    
+
+  }
+
+  &__three-search {
+    display: none;
+  }
+
+  &-right {
+
+    &-img {
+      width: 450px;
+      height: 440px;
+      background-color: transparent;
+    }
+  }
+}
+
+}
+
+@media only screen and (max-width : 768px) {
+
+  .intro {
+    margin-top: 50px;
+  @include costum-menu(flex, center, space-between, 100%, 100%, $main-bg-grey);
+  margin-bottom: 100px;
+
+  &__left {
+    width: 507px;
+
+    &--bgwhite {
+        @include costum-menu(flex, center, center, 205px, 50px,  $main-color-white);
+        border-radius: 10px;
+
+      &-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 14px;
+        color: #ff6652;
+      }
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 45px;
+        color: $main-blue-color;
+        width: 340px;
+    }
+
+    &-text {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 25px;
+        width: 350px;
+    }
+
+    &--search {
+        @include costum-menu(flex, center, center, 390px, 40px, $main-color-white);
+        border-radius: 10px;
+
+        &-select {
+            border: none;
+            margin-left: 10px;
+        }
+
+        &-hr {
+            width: 1px;
+            height: 30px;
+            background-color: #DADADA;
+            margin-right: 80px;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 14px;
+            position: relative;
+            right: 70px;
+        }
+
+        &-btnSearch {
+            width: 100px;
+            height: 30px;
+            margin-right: 5px;
+            background: $main-color-blueviolet;
+            color: $main-color-white;
+            border: none;
+            border-radius: 10px;
+
+            &:hover {
+              background-color: $main-color-white;
+              color: $main-color-blueviolet;
+            }
+        }
+    }    
+
+  }
+
+  &__three-search {
+    display: none;
+  }
+
+  &-right {
+
+    &-img {
+      width: 450px;
+      height: 440px;
+      background-color: transparent;
+    }
+  }
+}
+
+}
+
+@media only screen and (max-width : 576px) {
+
+  .intro {
+  @include costum-menu(block, center, space-between, 100%, 100%, $main-bg-grey);
+  margin: 50px auto 70px;
+
+
+  &__left {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+
+    &--bgwhite {
+        @include costum-menu(flex, center, center, 200px, 50px,  $main-color-white);
+        border-radius: 10px;
+
+      &-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 14px;
+        color: #ff6652;
+      }
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 40px;
+        color: $main-blue-color;
+        width: 100%;
+    }
+
+    &-text {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    &--search {
+        @include costum-menu(none, center, center, 390px, 40px, $main-color-white);
+        border-radius: 10px;
+
+        &-select {
+            border: none;
+            margin-left: 10px;
+        }
+
+        &-hr {
+            width: 1px;
+            height: 30px;
+            background-color: #DADADA;
+            margin-right: 80px;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 14px;
+            position: relative;
+            right: 70px;
+        }
+
+        &-btnSearch {
+            width: 100px;
+            height: 30px;
+            margin-right: 5px;
+            background: $main-color-blueviolet;
+            color: $main-color-white;
+            border: none;
+            border-radius: 10px;
+
+            &:hover {
+              background-color: $main-color-white;
+              color: $main-color-blueviolet;
+            }
+        }
+    } 
+  }
+
+  &__three-search {
+    display: block;
+
+    &-select {
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      outline: none;
+      text-indent: 20px;
+    }
+
+    &-course {
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      outline: none;
+      text-indent: 20px;
+      margin: 12px 0;
+    }
+
+    &-btn {
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      color: $main-color-white;
+      background-color: $main-color-blueviolet;
+    }
+  }
+
+  &-right {
+    display: block;
+    text-align: center;
+    &-img {
+      width: 100%;
+      background-color: transparent;
+    }
+  }
+}
+
+}
+
+@media only screen and (max-width : 375px) {
+
+  .intro {
+    @include costum-menu(block, center, space-between, 100%, 100%, $main-bg-grey);
+    margin: 50px auto 70px;
+  
+  
+    &__left {
+      display: block;
+  
+      &--bgwhite {
+          @include costum-menu(flex, center, center, 170px, 44px,  $main-color-white);
+          border-radius: 10px;
+  
+        &-title {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 14px;
+          color: #ff6652;
+        }
+      }
+  
+      &-title {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 40px;
+          color: $main-blue-color;
+          width: 299px;
+      }
+  
+      &-text {
+          font-size: 16px;
+          line-height: 30px;
+          margin-bottom: 30px;
+          width: 333px;
+      }
+  
+      &--search {
+          @include costum-menu(none, center, center, 390px, 40px, $main-color-white);
+          border-radius: 10px;
+  
+          &-select {
+              border: none;
+              margin-left: 10px;
+          }
+  
+          &-hr {
+              width: 1px;
+              height: 30px;
+              background-color: #DADADA;
+              margin-right: 80px;
+          }
+  
+          &-text {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 14px;
+              position: relative;
+              right: 70px;
+          }
+  
+          &-btnSearch {
+              width: 100px;
+              height: 30px;
+              margin-right: 5px;
+              background: $main-color-blueviolet;
+              color: $main-color-white;
+              border: none;
+              border-radius: 10px;
+  
+              &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+              }
+          }
+      } 
+    }
+  
+    &__three-search {
+      display: block;
+  
+      &-select {
+        width: 335px;
+        height: 50px;
+        border-radius: 5px;
+        outline: none;
+        text-indent: 20px;
+      }
+  
+      &-course {
+        width: 335px;
+        height: 50px;
+        border-radius: 5px;
+        outline: none;
+        text-indent: 20px;
+        margin: 12px 0;
+      }
+  
+      &-btn {
+        width: 335px;
+        height: 50px;
+        border-radius: 5px;
+        color: $main-color-white;
+        background-color: $main-color-blueviolet;
+      }
+    }
+  
+    &-right {
+      display: block;
+      &-img {
+        width: 323px;
+        height: 339px;
+        background-color: transparent;
+      }
+    }
+  }
+
+}

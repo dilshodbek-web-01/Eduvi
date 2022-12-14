@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BS ICONS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <div class="container">
+        <div class="signUP">
+            <div class="signUP__left">
+                <img src="./images/Logo.svg" alt="logo" class="signUP__left-logo">
+                <h2 class="signUP__left-title">
+                    Welcome to Eduvi Online Learning Platform
+                </h2>
+                <img src="./images/left__person-picture.jpg" alt="left__person-picture" class="signUP__left-picture">
+                <!-- <img src="./images/Sliders.svg" alt="Sliders" class="signUP__left-sliders"> -->
+            </div>
+            <hr class="hr">
+            <div class="signUP__right">
+                <div class="signUP__right--sign">
+                    <img class="signUP__right--sign-google" src="./images/google.svg" alt="google">
+                    <input class="signUP__right--sign-first" type="text" placeholder="Signup with google">
+                    <p class="signUP__right--sign-text">-- Or signup with your email --</p>
+                </div>
+                
+                <form action="#" class="signUP__right--form" id="registration">
+
+                    <label for="#">
+                        <p class="signUP__right--form-title"><strong>Full name</strong></p>
+                        <img class="signUP__right--form-icon" src="./images/account-icon.svg" alt="account-icon">
+                        <input id="userNameRegistration" type="text" placeholder="Esther Howard" class="signUP__right--form-input">
+                    </label>
+
+                    <label for="#">
+                        <p class="signUP__right--form-title"><strong>Email</strong></p>
+                        <img class="signUP__right--form-icon" src="./images/message.svg" alt="message">
+                        <input id="userEmailRegistration" type="email" placeholder="bill.sanders@example.com" class="signUP__right--form-input emailInput">
+                    </label>
+
+                    <label for="#">
+                        <p class="signUP__right--form-title"><strong>Password</strong></p>
+                        <img class="signUP__right--form-icon" src="./images/lock.svg" alt="account-icon">
+                        <input type="password" id="userPasswordRegistration" placeholder="**********" class="signUP__right--form-input">
+                        <span id="show2" class="show"><i class="bi bi-eye-fill"></i></span>
+                    </label>
+
+                    <div class="signUP__right--form-checkbox">
+                        <input type="checkbox" class="signUP__right--form-checkbox-check">
+                        <p class="signUP__right--form-checkbox-text">I agreed to the <strong>Terms & Conditions</strong></p>
+                    </div>
+
+                    <button type="submit" class="signUP__right--form-btn">Sign/Up</button>
+
+                    <p class="signUP__right--form-text">Already have account? <a class="signUP__right--form-text-link" href="./login.html"><strong>Sign in</strong></a></p>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="./scripts/utils.js"></script>
+<script src="./scripts/reg.js"></script>
+<script src="./scripts/index.js"></script>
+</html>

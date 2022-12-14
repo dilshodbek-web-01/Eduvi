@@ -1,0 +1,445 @@
+.high {
+
+    &-title {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        text-align: center;
+        color: $main-blue-color;
+        width: 556px;
+        margin: 0 auto;
+    }
+
+    &-text {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        width: 840px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    &-visitCourses {
+        position: relative;
+        left: 42%;
+        width: 162px;
+        height: 60px;
+        color: $main-color-white;
+        background-color: $main-color-blueviolet;
+        border-radius: 10px;
+        border: none;
+
+        &:hover {
+            background-color: $main-color-white;
+            color: $main-color-blueviolet;
+        }
+    }
+
+    &-videocall {
+        margin: 0 auto;
+        background-color: transparent;
+        position: relative;
+        bottom: 50px;
+    }
+
+    &__threeLive {
+        margin: 0 auto;
+        @include costum-menu(flex, center, space-between, 980px, auto, transparent);
+        margin: 0 auto;
+        
+
+        &--audio {
+            @include costum-menu(flex, center, start, 310px, 100px, $main-color-white);
+            background-color: $main-color-white;
+            border-radius: 10px;
+
+            &-img {
+                margin-left: 15px;
+                margin-right: 20px;
+            }
+
+            &-title {
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 25px;
+                color: $main-blue-color;
+            }
+        }  
+    }
+}
+
+
+@media only screen and (max-width : 1110px) {
+
+    .high {
+
+        &-title {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 40px;
+            text-align: center;
+            color: $main-blue-color;
+            width: 432px;
+            margin: 0 auto;
+        }
+    
+        &-text {
+            font-size: 14px;
+            line-height: 28px;
+            text-align: center;
+            width: 703px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+    
+        &-visitCourses {
+            width: 162px;
+            height: 60px;
+            color: $main-color-white;
+            background-color: $main-color-blueviolet;
+            border-radius: 10px;
+            border: none;
+    
+            &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+            }
+        }
+    
+        &-videocall {
+            margin: 0 auto;
+            background-color: transparent;
+            position: relative;
+            bottom: 50px;
+        }
+    
+        &__threeLive {
+            margin: 0 auto;
+            @include costum-menu(flex, center, space-between, 820px, auto, transparent);
+            
+    
+            &--audio {
+                @include costum-menu(flex, center, start, 260px, 90px, $main-color-white);
+                background-color: $main-color-white;
+                border-radius: 10px;
+    
+                &-img {
+                    margin-left: 15px;
+                    margin-right: 20px;
+                    width: 44px;
+                    height: 44px;
+                }
+    
+                &-title {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 20px;
+                    color: $main-blue-color;
+                }
+            }  
+        }
+    }
+
+}
+
+@media only screen and (max-width : 992px) {
+
+    .high {
+
+        &-title {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 40px;
+            text-align: center;
+            color: $main-blue-color;
+            width: 432px;
+            margin: 0 auto;
+        }
+    
+        &-text {
+            font-size: 14px;
+            line-height: 28px;
+            text-align: center;
+            width: 703px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+    
+        &-visitCourses {
+            width: 162px;
+            height: 60px;
+            color: $main-color-white;
+            background-color: $main-color-blueviolet;
+            border-radius: 10px;
+            border: none;
+    
+            &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+            }
+        }
+    
+        &-videocall {
+            margin: 0 auto;
+            background-color: transparent;
+            position: relative;
+            bottom: 40px;
+        }
+    
+        &__threeLive {
+            margin: 0 auto;
+            @include costum-menu(flex, center, space-between, 660px, auto, transparent);
+            
+    
+            &--audio {
+                @include costum-menu(flex, center, start, 210px, 80px, $main-color-white);
+                background-color: $main-color-white;
+                border-radius: 10px;
+                margin-top: 50px;
+    
+                &-img {
+                    margin-left: 15px;
+                    margin-right: 20px;
+                    width: 44px;
+                    height: 44px;
+                }
+    
+                &-title {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $main-blue-color;
+                }
+            }  
+        }
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+    .high {
+
+        &-title {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+            color: $main-blue-color;
+            margin: 0 auto;
+        }
+    
+        &-text {
+            font-size: 14px;
+            line-height: 28px;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+    
+        &-visitCourses {
+            width: 162px;
+            height: 60px;
+            color: $main-color-white;
+            background-color: $main-color-blueviolet;
+            border-radius: 10px;
+            border: none;
+    
+            &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+            }
+        }
+    
+        &-videocall {
+            margin: 0 auto;
+            background-color: transparent;
+            position: relative;
+            bottom: 40px;
+        }
+    
+        &__threeLive {
+            margin: 0 auto;
+            @include costum-menu(flex, center, space-between, 480px, auto, transparent);
+            
+    
+            &--audio {
+                @include costum-menu(flex, center, start, 150px, 70px, $main-color-white);
+                background-color: $main-color-white;
+                border-radius: 10px;
+                margin-top: 50px;
+                
+    
+                &-img {
+                    margin-left: 15px;
+                    margin-right: 20px;
+                    width: 33px;
+                    height: 33px;
+                }
+    
+                &-title {
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 18px;
+                    color: $main-blue-color;
+                }
+            }  
+        }
+    }
+}
+
+@media only screen and (max-width : 576px) {
+
+    .high {
+
+        &-title {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 32px;
+            text-align: center;
+            color: $main-blue-color;
+            margin: 0 auto;
+            width: 355px;
+        }
+    
+        &-text {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+            margin: 15px 0 30px 0;
+            padding: 0 20px;
+        }
+    
+        &-visitCourses {
+            width: 162px;
+            height: 50px;
+            color: $main-color-white;
+            background-color: $main-color-blueviolet;
+            border-radius: 10px;
+            border: none;
+    
+            &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+            }
+        }
+    
+        &-videocall {
+            margin: 50px auto;
+            background-color: transparent;
+
+        }
+    
+        &__threeLive {
+            margin: 0 auto;
+            @include costum-menu(flex, center, center, 100%, auto, transparent);
+            flex-wrap: wrap;
+            gap: 15px;
+
+            
+    
+            &--audio {
+                @include costum-menu(flex, center, start, 170px, 54px, $main-color-white);
+                background-color: $main-color-white;
+                border-radius: 5px;
+                margin-top: 0;
+                
+    
+                &-img {
+                    margin-left: 15px;
+                    margin-right: 20px;
+                    width: 33px;
+                    height: 33px;
+                }
+    
+                &-title {
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 18px;
+                    color: $main-blue-color;
+                }
+            }  
+        }
+    }
+}
+
+@media only screen and (max-width : 375px) {
+
+    .high {
+
+        &-title {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 32px;
+            text-align: center;
+            color: $main-blue-color;
+            margin: 0 auto;
+            width: 325px;
+        }
+    
+        &-text {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            width: 340px;
+            margin: 0 auto;
+            margin: 15px 0 30px 0;
+        }
+    
+        &-visitCourses {
+            width: 162px;
+            height: 50px;
+            color: $main-color-white;
+            background-color: $main-color-blueviolet;
+            border-radius: 10px;
+            border: none;
+            position: relative;
+            left: 95px;
+    
+            &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+            }
+        }
+    
+        &-videocall {
+            margin: 50px auto;
+            background-color: transparent;
+
+        }
+    
+        &__threeLive {
+            margin: 0 auto;
+            @include costum-menu(flex, center, center, 350px, auto, transparent);
+            flex-wrap: wrap;
+            gap: 15px;
+
+            
+    
+            &--audio {
+                @include costum-menu(flex, center, start, 160px, 44px, $main-color-white);
+                background-color: $main-color-white;
+                border-radius: 5px;
+                margin-top: 0;
+                
+    
+                &-img {
+                    margin-left: 15px;
+                    margin-right: 20px;
+                    width: 33px;
+                    height: 33px;
+                }
+    
+                &-title {
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 18px;
+                    color: $main-blue-color;
+                }
+            }  
+        }
+    }
+
+}

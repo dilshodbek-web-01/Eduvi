@@ -1,0 +1,591 @@
+.standard {
+    text-align: center;
+
+    &-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: $main-blue-color;
+    }
+
+    &-text {
+        width: 700px;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    &__threeScholl {
+        margin: 0 auto;
+        @include costum-menu(flex, center, space-between, 500px, auto, transparent);
+
+        &-aducation {
+            width: 152px;
+            height: 60px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: $main-blue-color;
+            background-color: transparent;
+            border: none;
+            border-radius: 10px;
+
+            &:hover {
+                background-color: $main-color-red;
+                box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+                border-radius: 10px;
+                color: $main-color-white;
+            }
+        }
+    }
+
+    &__boxs {
+        margin-bottom: 45px;
+        @include costum-menu(flex, center, space-between, 100%, 100%, 
+        transparent);
+        flex-wrap: wrap;
+        position: relative;
+        right: 20px;
+
+        &--box {
+            @include costum-menu(block, center, center, 290px, 329px, 
+            $main-color-white);
+            list-style-type: none;
+            border-radius: 12px;
+            padding: 30px 15px;
+            text-align: center;
+            margin-bottom: 40px;
+            
+
+
+            &-title {
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 25px;
+                color: $main-blue-color;
+            }
+
+            &-text {
+                font-size: 16px;
+                line-height: 30px;
+                width: 256px;
+                margin-right: 40px;
+                text-align: center;
+            }
+
+            &-class {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: $main-color-blueviolet;
+                border: 1px solid $main-color-blueviolet;
+                border-radius: 5px;
+                padding: 12px 31px;
+
+                &:hover {
+                    background-color: $main-color-blueviolet;
+                    color: $main-color-white;
+                }
+            }
+        }
+    }
+
+    &-visitClass {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        background-color: $main-color-blueviolet;
+        color: $main-color-white;
+        padding: 20px 30px;
+        border: none;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: $main-color-white;
+            color: $main-color-blueviolet;
+        }
+    }
+}
+
+
+@media only screen and (max-width : 1110px) {
+
+    .standard {
+        text-align: center;
+
+        &-title {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        text-align: center;
+        color: $main-blue-color;
+        }
+    
+        &-text {
+            width: 700px;
+            font-size: 16px;
+            line-height: 30px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+    
+        &__threeScholl {
+            margin: 0 auto;
+            @include costum-menu(flex, center, space-between, 500px, auto, transparent);
+    
+            &-aducation {
+                width: 152px;
+                height: 60px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: $main-blue-color;
+                background-color: transparent;
+                border: none;
+                border-radius: 10px;
+    
+                &:hover {
+                    background-color: $main-color-red;
+                    box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+                    border-radius: 10px;
+                    color: $main-color-white;
+                }
+            }
+        }
+    
+        &__boxs {
+            margin-bottom: 45px;
+            @include costum-menu(flex, center, space-between, 100%, 100%, 
+            transparent);
+            flex-wrap: wrap;
+            position: relative;
+            right: 20px;
+    
+            &--box {
+                @include costum-menu(block, center, center, 290px, 329px, 
+                $main-color-white);
+                list-style-type: none;
+                border-radius: 12px;
+                padding: 30px 15px;
+                text-align: center;
+                margin-bottom: 40px;
+                
+    
+    
+                &-title {
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 25px;
+                    color: $main-blue-color;
+                }
+    
+                &-text {
+                    font-size: 16px;
+                    line-height: 30px;
+                    width: 256px;
+                    margin-right: 40px;
+                    text-align: center;
+                }
+    
+                &-class {
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $main-color-blueviolet;
+                    border: 1px solid $main-color-blueviolet;
+                    border-radius: 5px;
+                    padding: 12px 31px;
+    
+                    &:hover {
+                        background-color: $main-color-blueviolet;
+                        color: $main-color-white;
+                    }
+                }
+            }
+        }
+    
+        &-visitClass {
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            background-color: $main-color-blueviolet;
+            color: $main-color-white;
+            padding: 20px 30px;
+            border: none;
+            border-radius: 10px;
+    
+            &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width : 992px) {
+
+    .standard {
+        text-align: center;
+
+        &-title {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        text-align: center;
+        color: $main-blue-color;
+        }
+    
+        &-text {
+            width: 700px;
+            font-size: 16px;
+            line-height: 30px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+    
+        &__threeScholl {
+            margin: 0 auto;
+            @include costum-menu(flex, center, space-between, 500px, auto, transparent);
+    
+            &-aducation {
+                width: 152px;
+                height: 60px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: $main-blue-color;
+                background-color: transparent;
+                border: none;
+                border-radius: 10px;
+    
+                &:hover {
+                    background-color: $main-color-red;
+                    box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+                    border-radius: 10px;
+                    color: $main-color-white;
+                }
+            }
+        }
+    
+        &__boxs {
+            margin-bottom: 45px;
+            @include costum-menu(flex, center, space-between, 100%, 100%, 
+            transparent);
+            flex-wrap: wrap;
+            position: relative;
+            right: 20px;
+
+    
+            &--box {
+                @include costum-menu(block, center, center, 290px, 329px, 
+                $main-color-white);
+                list-style-type: none;
+                border-radius: 12px;
+                padding: 30px 15px;
+                text-align: center;
+                margin-bottom: 40px;
+                margin: 0 auto 15px;
+                
+    
+    
+                &-title {
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 25px;
+                    color: $main-blue-color;
+                }
+    
+                &-text {
+                    font-size: 16px;
+                    line-height: 30px;
+                    width: 256px;
+                    margin-right: 40px;
+                    text-align: center;
+                }
+    
+                &-class {
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $main-color-blueviolet;
+                    border: 1px solid $main-color-blueviolet;
+                    border-radius: 5px;
+                    padding: 12px 31px;
+    
+                    &:hover {
+                        background-color: $main-color-blueviolet;
+                        color: $main-color-white;
+                    }
+                }
+            }
+        }
+    
+        &-visitClass {
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            background-color: $main-color-blueviolet;
+            color: $main-color-white;
+            padding: 20px 30px;
+            border: none;
+            border-radius: 10px;
+    
+            &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width : 768px) {
+
+    .standard {
+        text-align: center;
+
+        &-title {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        text-align: center;
+        color: $main-blue-color;
+        }
+    
+        &-text {
+            width: 540px;
+            font-size: 16px;
+            line-height: 30px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+    
+        &__threeScholl {
+            margin: 0 auto;
+            @include costum-menu(flex, center, space-between, 500px, auto, transparent);
+    
+            &-aducation {
+                width: 152px;
+                height: 60px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: $main-blue-color;
+                background-color: transparent;
+                border: none;
+                border-radius: 10px;
+    
+                &:hover {
+                    background-color: $main-color-red;
+                    box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+                    border-radius: 10px;
+                    color: $main-color-white;
+                }
+            }
+        }
+    
+        &__boxs {
+            margin-bottom: 45px;
+            @include costum-menu(flex, center, space-between, 100%, 100%, 
+            transparent);
+            flex-wrap: wrap;
+            position: relative;
+            right: 20px;
+
+    
+            &--box {
+                @include costum-menu(block, center, center, 290px, 329px, 
+                $main-color-white);
+                list-style-type: none;
+                border-radius: 12px;
+                padding: 30px 15px;
+                text-align: center;
+                margin-bottom: 40px;
+                margin: 0 auto 15px;
+                
+    
+    
+                &-title {
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 25px;
+                    color: $main-blue-color;
+                }
+    
+                &-text {
+                    font-size: 16px;
+                    line-height: 30px;
+                    width: 256px;
+                    margin-right: 40px;
+                    text-align: center;
+                }
+    
+                &-class {
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $main-color-blueviolet;
+                    border: 1px solid $main-color-blueviolet;
+                    border-radius: 5px;
+                    padding: 12px 31px;
+    
+                    &:hover {
+                        background-color: $main-color-blueviolet;
+                        color: $main-color-white;
+                    }
+                }
+            }
+        }
+    
+        &-visitClass {
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            background-color: $main-color-blueviolet;
+            color: $main-color-white;
+            padding: 20px 30px;
+            border: none;
+            border-radius: 10px;
+    
+            &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width : 576px) {
+
+    .standard {
+        text-align: center;
+
+        &-title {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 55px;
+        text-align: center;
+        color: $main-blue-color;
+        }
+    
+        &-text {
+            width: 100%;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 25px;
+        }
+    
+        &__threeScholl {
+            margin: 0 auto;
+            @include costum-menu(flex, center, space-between, 100%, auto, transparent);
+    
+            &-aducation {
+                width: 141px;
+                height: 55px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: $main-blue-color;
+                background-color: transparent;
+                border: none;
+                border-radius: 10px;
+    
+                &:hover {
+                    background-color: $main-color-red;
+                    box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+                    border-radius: 10px;
+                    color: $main-color-white;
+                }
+            }
+        }
+    
+        &__boxs {
+            margin-bottom: 45px;
+            @include costum-menu(flex, center, space-between, 100%, 100%, 
+            transparent);
+            flex-wrap: wrap;
+            position: relative;
+            right: 20px;
+
+    
+            &--box {
+                @include costum-menu(block, center, center, 290px, 329px, 
+                $main-color-white);
+                list-style-type: none;
+                border-radius: 12px;
+                padding: 30px 15px;
+                text-align: center;
+                margin-bottom: 40px;
+                margin: 0 auto 15px;
+                
+    
+    
+                &-title {
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 25px;
+                    color: $main-blue-color;
+                }
+    
+                &-text {
+                    font-size: 16px;
+                    line-height: 30px;
+                    width: 256px;
+                    margin-right: 40px;
+                    text-align: center;
+                }
+    
+                &-class {
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $main-color-blueviolet;
+                    border: 1px solid $main-color-blueviolet;
+                    border-radius: 5px;
+                    padding: 12px 31px;
+    
+                    &:hover {
+                        background-color: $main-color-blueviolet;
+                        color: $main-color-white;
+                    }
+                }
+            }
+        }
+    
+        &-visitClass {
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            background-color: $main-color-blueviolet;
+            color: $main-color-white;
+            padding: 20px 30px;
+            border: none;
+            border-radius: 10px;
+    
+            &:hover {
+                background-color: $main-color-white;
+                color: $main-color-blueviolet;
+            }
+        }
+    }
+
+}

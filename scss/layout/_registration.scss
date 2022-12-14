@@ -1,0 +1,493 @@
+.registration {
+    background-image: url(../../images/working-boy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 667px;
+    margin-top: 120px;
+    background-color: #EDE9F2;
+    border-radius: 20px;
+
+    &__content {
+        padding: 113px 0 0 70px;
+        &-level {
+            padding: 15px 20px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px;
+            color: $main-color-blueviolet;
+            background-color: #E4E2F4;
+            border: none;
+            border-radius: 10px;
+        }
+
+        &-title {
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 55px;
+            color: $main-blue-color;
+            width: 460px;
+
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 30px;
+            width: 500px;
+            margin-bottom: 40px;
+        }
+
+        &-link {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            padding: 20px 30px;
+            background-color: $main-color-blueviolet;
+            color: $main-color-white;
+            border-radius: 10px;
+
+            &:hover {
+                color: $main-color-blueviolet;
+                background-color: $main-color-white;
+            }
+        }
+
+    }
+
+    &__images {
+        
+        &-java {
+            position: relative;
+            bottom: 560px;
+            left: 1060px;
+        }
+
+        &-php {
+            position: relative;
+            left: 800px;
+            bottom: 400px;
+        }
+
+        &-html {
+            position: relative;
+            bottom: 430px;
+            left: 200px;
+        }
+    }
+}
+
+
+@media only screen and (max-width : 1110px) {
+
+    .registration {
+        background-image: url(../../images/working-boy.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 564px;
+        margin-top: 90px;
+        background-color: #EDE9F2;
+        border-radius: 20px;
+    
+        &__content {
+            padding: 100px 0 0 51px;
+            &-level {
+                padding: 10px 15px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+                color: $main-color-blueviolet;
+                background-color: #E4E2F4;
+                border: none;
+                border-radius: 10px;
+            }
+    
+            &-title {
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 40px;
+                color: $main-blue-color;
+                width: 358px;
+    
+            }
+    
+            &-text {
+                font-size: 14px;
+                line-height: 28px;
+                width: 416px;
+                margin-bottom: 40px;
+            }
+    
+            &-link {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                padding: 15px 30px;
+                background-color: $main-color-blueviolet;
+                color: $main-color-white;
+                border-radius: 10px;
+    
+                &:hover {
+                    color: $main-color-blueviolet;
+                    background-color: $main-color-white;
+                }
+            }
+    
+        }
+    
+        &__images {
+            
+            &-java {
+                position: relative;
+                bottom: 480px;
+                left: 800px;
+            }
+    
+            &-php {
+                position: relative;
+                left: 650px;
+                bottom: 350px;
+            }
+    
+            &-html {
+                position: relative;
+                bottom: 430px;
+                left: 100px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 992px) {
+
+    .registration {
+        background-image: url(../../images/working-boy.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 564px;
+        margin-top: 90px;
+        background-color: #EDE9F2;
+        border-radius: 20px;
+    
+        &__content {
+            padding: 100px 0 0 51px;
+            &-level {
+                padding: 10px 15px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+                color: $main-color-blueviolet;
+                background-color: #E4E2F4;
+                border: none;
+                border-radius: 10px;
+            }
+    
+            &-title {
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 40px;
+                color: $main-blue-color;
+                width: 358px;
+    
+            }
+    
+            &-text {
+                font-size: 14px;
+                line-height: 28px;
+                width: 416px;
+                margin-bottom: 40px;
+            }
+    
+            &-link {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                padding: 15px 30px;
+                background-color: $main-color-blueviolet;
+                color: $main-color-white;
+                border-radius: 10px;
+    
+                &:hover {
+                    color: $main-color-blueviolet;
+                    background-color: $main-color-white;
+                }
+            }
+    
+        }
+    
+        &__images {
+            
+            &-java {
+                position: relative;
+                bottom: 480px;
+                left: 750px;
+            }
+    
+            &-php {
+                position: relative;
+                left: 600px;
+                bottom: 350px;
+            }
+    
+            &-html {
+                position: relative;
+                bottom: 430px;
+                left: 40px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width : 768px) {
+
+    .registration {
+        background-image: url(../../images/working-boy.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        margin-top: 70px;
+        background-color: #EDE9F2;
+        border-radius: 20px;
+    
+        &__content {
+            padding: 60px 0 0 20px;
+            &-level {
+                padding: 10px 15px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                color: $main-color-blueviolet;
+                background-color: #E4E2F4;
+                border: none;
+                border-radius: 10px;
+            }
+    
+            &-title {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 40px;
+                color: $main-blue-color;
+                width: 320px;
+    
+            }
+    
+            &-text {
+                font-size: 14px;
+                line-height: 24px;
+                width: 325px;
+                margin-bottom: 40px;
+            }
+    
+            &-link {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                padding: 10px 25px;
+                background-color: $main-color-blueviolet;
+                color: $main-color-white;
+                border-radius: 10px;
+    
+                &:hover {
+                    color: $main-color-blueviolet;
+                    background-color: $main-color-white;
+                }
+            }
+    
+        }
+    
+        &__images {
+            
+            &-java {
+                position: relative;
+                bottom: 480px;
+                left: 750px;
+            }
+    
+            &-php {
+                position: relative;
+                left: 600px;
+                bottom: 350px;
+            }
+    
+            &-html {
+                position: relative;
+                bottom: 430px;
+                left: 40px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width : 576px) {
+
+    .registration {
+        background-image: url(../../images/bg-man.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: end;
+        height: 1400px;
+        margin-top: 70px;
+        background-color: #EDE9F2;
+        border-radius: 20px;
+    
+        &__content {
+            padding: 60px 0 0 20px;
+            &-level {
+                padding: 10px 15px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                color: $main-color-blueviolet;
+                background-color: #E4E2F4;
+                border: none;
+                border-radius: 10px;
+            }
+    
+            &-title {
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 40px;
+                color: $main-blue-color;
+                width: 100%;
+    
+            }
+    
+            &-text {
+                font-size: 18px;
+                line-height: 24px;
+                width: 100%;
+                margin-bottom: 40px;
+            }
+    
+            &-link {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                padding: 15px 30px;
+                background-color: $main-color-blueviolet;
+                color: $main-color-white;
+                border-radius: 10px;
+    
+                &:hover {
+                    color: $main-color-blueviolet;
+                    background-color: $main-color-white;
+                }
+            }
+    
+        }
+    
+        &__images {
+            
+            &-java {
+                position: relative;
+                bottom: 480px;
+                left: 750px;
+            }
+    
+            &-php {
+                position: relative;
+                left: 600px;
+                bottom: 350px;
+            }
+    
+            &-html {
+                position: relative;
+                bottom: 430px;
+                left: 40px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width : 375px) {
+
+    .registration {
+        background-image: url(../../images/bg-man.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: end;
+        height: 1400px;
+        margin-top: 70px;
+        background-color: #EDE9F2;
+        border-radius: 20px;
+    
+        &__content {
+            padding: 60px 0 0 20px;
+            &-level {
+                padding: 10px 15px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                color: $main-color-blueviolet;
+                background-color: #E4E2F4;
+                border: none;
+                border-radius: 10px;
+            }
+    
+            &-title {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 32px;
+                color: $main-blue-color;
+                width: 320px;
+    
+            }
+    
+            &-text {
+                font-size: 16px;
+                line-height: 24px;
+                width: 325px;
+                margin-bottom: 25px;
+            }
+    
+            &-link {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                padding: 10px 25px;
+                background-color: $main-color-blueviolet;
+                color: $main-color-white;
+                border-radius: 10px;
+    
+                &:hover {
+                    color: $main-color-blueviolet;
+                    background-color: $main-color-white;
+                }
+            }
+    
+        }
+    
+        &__images {
+            
+            &-java {
+                position: relative;
+                bottom: 480px;
+                left: 750px;
+            }
+    
+            &-php {
+                position: relative;
+                left: 600px;
+                bottom: 350px;
+            }
+    
+            &-html {
+                position: relative;
+                bottom: 430px;
+                left: 40px;
+            }
+        }
+    }
+
+}

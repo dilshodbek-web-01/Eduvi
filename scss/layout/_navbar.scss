@@ -1,0 +1,283 @@
+.nav {
+    &__logo {
+        height: 30px;
+    }
+
+    @include costum-menu (flex, center, space-between, 100%, 90px, $main-bg-grey);
+     
+    &__lists {
+        @include costum-menu (flex, center, space-between, 55%, auto, $main-bg-grey);
+        
+        &--item {
+            list-style-type: none;
+
+            &-link {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    &__end {
+        @include costum-menu (flex, center, space-between, 20%, auto, $main-bg-grey);
+        margin-right: 40px;
+
+        &--cart {
+            display: flex;
+            align-items: center;
+
+            &-title {
+                text-decoration: none;
+                margin-right: 10px;
+            }
+        }
+
+        &--account {
+            display: flex;
+            align-items: center;
+
+            &-title {
+                text-decoration: none;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &__menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 1110px) {
+
+    .nav {
+        &__logo {
+            height: 30px;
+        }
+    
+        @include costum-menu (flex, center, space-between, 100%, 90px, $main-bg-grey);
+         
+        &__lists {
+            @include costum-menu (flex, center, space-between, 60%, auto, $main-bg-grey);
+            
+            &--item {
+                list-style-type: none;
+    
+                &-link {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 16px;
+                    text-decoration: none;
+                }
+            }
+    
+        }
+    
+        &__end {
+            @include costum-menu (flex, center, space-between, 22%, auto, $main-bg-grey);
+            margin-right: 40px;
+    
+            &--cart {
+                display: flex;
+                align-items: center;
+    
+                &-title {
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+            }
+    
+            &--account {
+                display: flex;
+                align-items: center;
+    
+                &-title {
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+            }
+        }
+    
+        &__menu {
+            display: none;
+        }
+    }
+
+}
+
+@media only screen and (max-width : 992px) {
+
+    .nav {
+        &__logo {
+            height: 30px;
+        }
+    
+        @include costum-menu (flex, center, space-between, 100%, 90px, $main-bg-grey);
+         
+        &__lists {
+            @include costum-menu (none, center, space-between, 55%, auto, $main-bg-grey);
+            
+            &--item {
+                list-style-type: none;
+    
+                &-link {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 16px;
+                    text-decoration: none;
+                }
+            }
+    
+        }
+    
+        &__end {
+            @include costum-menu (flex, center, end, 90%, auto, $main-bg-grey);
+            margin-right: 40px;
+    
+            &--cart {
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+    
+                &-title {
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+            }
+    
+            &--account {
+                display: flex;
+                align-items: center;
+    
+                &-title {
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+            }
+        }
+    
+        &__menu {
+            display: block;
+        }
+    }
+
+}
+
+@media only screen and (max-width : 768px) {
+
+    .nav {
+        &__logo {
+            height: 30px;
+        }
+    
+        @include costum-menu (flex, center, space-between, 100%, 90px, $main-bg-grey);
+         
+        &__lists {
+            @include costum-menu (none, center, space-between, 55%, auto, $main-bg-grey);
+            
+            &--item {
+                list-style-type: none;
+    
+                &-link {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 16px;
+                    text-decoration: none;
+                }
+            }
+    
+        }
+    
+        &__end {
+            @include costum-menu (flex, center, end, 90%, auto, $main-bg-grey);
+            margin-right: 40px;
+    
+            &--cart {
+                display: flex;
+                align-items: center;
+    
+                &-title {
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+            }
+    
+            &--account {
+                display: flex;
+                align-items: center;
+    
+                &-title {
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+            }
+        }
+    
+        &__menu {
+            display: block;
+        }
+    }
+
+}
+
+
+
+@media only screen and (max-width : 576px) {
+
+    .nav {
+        &__logo {
+            height: 30px;
+        }
+    
+        @include costum-menu (flex, center, space-between, 100%, 90px, $main-bg-grey);
+         
+        &__lists {
+            @include costum-menu (none, center, space-between, 55%, auto, $main-bg-grey);
+            
+            &--item {
+                list-style-type: none;
+    
+                &-link {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 16px;
+                    text-decoration: none;
+                }
+            }
+    
+        }
+    
+        &__end {
+            @include costum-menu (none, center, space-between, 45%, auto, $main-bg-grey);
+            margin-right: 40px;
+    
+            &--cart {
+                display: flex;
+                align-items: center;
+    
+                &-title {
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+            }
+    
+            &--account {
+                display: flex;
+                align-items: center;
+    
+                &-title {
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+            }
+        }
+    
+        &__menu {
+            display: block;
+        }
+    }
+
+}

@@ -1,0 +1,473 @@
+.cards {
+  display: flex;
+
+  &__popular {
+    margin-top: 40px;
+    &--list {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 30px;
+      color: $main-blue-color;
+      list-style-type: none;
+    }
+
+    &--lists {
+
+      &--item {
+        width: 400px;
+        height: 140px;
+        border-radius: 10px;
+        @include costum-menu(
+          flex,
+          center,
+          space-evenly,
+          400px,
+          140px,
+          $main-color-white
+        );
+        margin-bottom: 15px;
+
+        &-img {
+          width: 75px;
+          height: 90px;
+        }
+
+        &__inside {
+          &-title {
+            width: 228px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 20px;
+            color: $main-blue-color;
+            margin: 0px auto;
+          }
+
+          &-price {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 20px;
+            color: $main-color-red;
+          }
+        }
+      }
+    }
+
+    &-link {
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 20px;
+      color: $main-color-blueviolet;
+    }
+  }
+
+  &__main {
+    margin-top: 50px;
+
+    &--boxs {
+      margin-left: 20px;
+      
+      &-box {
+        padding: 20px 30px;
+        background-color: $main-color-white;
+        border: none;
+        box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        &:hover {
+          color: $main-color-white;
+          background-color: $main-color-red;
+        }
+      }
+    }
+
+    &--selects {
+      margin-left: 40px;
+      &-input {
+        width: 555px;
+        height: 60px;
+        border-radius: 10px;
+        text-indent: 20px;
+        outline: none;
+      }
+
+      &-select {
+        width: 270px;
+        height: 60px;
+        border-radius: 10px;
+        outline: none;
+      }
+    }
+
+    &--hero {
+      margin-left: 40px;
+      &--lists {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;  
+        margin-top: 15px;      
+
+        &__item {
+          width: 270px;
+          margin-bottom: 15px;
+          &-card {
+            border-radius: 10px;
+
+            @include costum-menu(
+              flex,
+              center,
+              center,
+              270px,
+              280px,
+              $main-color-white
+            );
+          }
+
+          &-title {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 20px;
+            color: $main-blue-color;
+            margin: 15px auto 10px;
+          }
+
+          &--down {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &-price {
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 20px;
+              color: $main-color-red;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width : 992px) {
+
+  .cards {
+    display: flex;
+  
+    &__popular {
+      margin-top: 40px;
+      &--list {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        color: $main-blue-color;
+        list-style-type: none;
+      }
+  
+      &--lists {
+  
+        &--item {
+          width: 400px;
+          height: 140px;
+          border-radius: 10px;
+          @include costum-menu(
+            flex,
+            center,
+            space-evenly,
+            400px,
+            140px,
+            $main-color-white
+          );
+          margin-bottom: 15px;
+  
+          &-img {
+            width: 75px;
+            height: 90px;
+          }
+  
+          &__inside {
+            &-title {
+              width: 228px;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 20px;
+              color: $main-blue-color;
+              margin: 0px auto;
+            }
+  
+            &-price {
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 20px;
+              color: $main-color-red;
+            }
+          }
+        }
+      }
+  
+      &-link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: $main-color-blueviolet;
+      }
+    }
+  
+    &__main {
+      margin-top: 50px;
+  
+      &--boxs {
+        margin-left: 20px;
+        
+        &-box {
+          padding: 20px 30px;
+          background-color: $main-color-white;
+          border: none;
+          box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+          border-radius: 10px;
+          margin-left: 20px;
+          margin-bottom: 30px;
+          &:hover {
+            color: $main-color-white;
+            background-color: $main-color-red;
+          }
+        }
+      }
+  
+      &--selects {
+        margin-left: 40px;
+        &-input {
+          width: 500px;
+          height: 55px;
+          border-radius: 10px;
+          text-indent: 20px;
+          outline: none;
+          margin-bottom: 20px;
+        }
+  
+        &-select {
+          width: 270px;
+          height: 60px;
+          border-radius: 10px;
+          outline: none;
+        }
+      }
+  
+      &--hero {
+        margin-left: 40px;
+        &--lists {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;  
+          margin-top: 15px;      
+  
+          &__item {
+            width: 270px;
+            margin-bottom: 15px;
+            &-card {
+              border-radius: 10px;
+  
+              @include costum-menu(
+                flex,
+                center,
+                center,
+                270px,
+                280px,
+                $main-color-white
+              );
+            }
+  
+            &-title {
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 20px;
+              color: $main-blue-color;
+              margin: 15px auto 10px;
+            }
+  
+            &--down {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+  
+              &-price {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 20px;
+                color: $main-color-red;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width : 768px) {
+
+  .cards {
+    display: flex;
+  
+    &__popular {
+      margin-top: 40px;
+      &--list {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        color: $main-blue-color;
+        list-style-type: none;
+      }
+  
+      &--lists {
+  
+        &--item {
+          width: 400px;
+          height: 140px;
+          border-radius: 10px;
+          @include costum-menu(
+            flex,
+            center,
+            space-evenly,
+            400px,
+            140px,
+            $main-color-white
+          );
+          margin-bottom: 15px;
+  
+          &-img {
+            width: 75px;
+            height: 90px;
+          }
+  
+          &__inside {
+            &-title {
+              width: 228px;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 20px;
+              color: $main-blue-color;
+              margin: 0px auto;
+            }
+  
+            &-price {
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 20px;
+              color: $main-color-red;
+            }
+          }
+        }
+      }
+  
+      &-link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: $main-color-blueviolet;
+      }
+    }
+  
+    &__main {
+      margin-top: 50px;
+  
+      &--boxs {
+        // margin-left: 20px;
+        width: 490px;
+        
+        &-box {
+          padding: 20px 30px;
+          background-color: $main-color-white;
+          border: none;
+          box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+          border-radius: 10px;
+          margin-left: 20px;
+          margin-bottom: 30px;
+          &:hover {
+            color: $main-color-white;
+            background-color: $main-color-red;
+          }
+        }
+      }
+  
+      &--selects {
+        margin-left: 40px;
+        &-input {
+          width: 300px;
+          height: 55px;
+          border-radius: 10px;
+          text-indent: 20px;
+          outline: none;
+          margin-bottom: 20px;
+        }
+  
+        &-select {
+          width: 270px;
+          height: 60px;
+          border-radius: 10px;
+          outline: none;
+        }
+      }
+  
+      &--hero {
+        margin-left: 40px;
+        &--lists {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;  
+          margin-top: 15px;      
+  
+          &__item {
+            width: 270px;
+            margin-bottom: 15px;
+            &-card {
+              border-radius: 10px;
+  
+              @include costum-menu(
+                flex,
+                center,
+                center,
+                270px,
+                280px,
+                $main-color-white
+              );
+            }
+  
+            &-title {
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 20px;
+              color: $main-blue-color;
+              margin: 15px auto 10px;
+            }
+  
+            &--down {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+  
+              &-price {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 20px;
+                color: $main-color-red;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
